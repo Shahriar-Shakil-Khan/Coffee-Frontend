@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import "tailwindcss";
+@plugin "daisyui";
+
+* {
+  font-family: "Rancho", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* Custom CSS to ensure the image is the same size */
+.coffee-image {
+  width: 100%; /* Ensure the image takes full available width */
+  height: 600px; /* Fixed height for all images */
+  object-fit: cover; /* Ensure images don't stretch/distort */
+  border-radius: 8px; /* Optional for rounded corners */
+}
